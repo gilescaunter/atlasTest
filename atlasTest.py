@@ -14,7 +14,7 @@ from flask import request
 
 app = Flask(__name__)
 
-client = pymongo.MongoClient("mongodb://giles53716:Aspect1ve@cluster0-shard-00-00-ztwly.mongodb.net:27017,cluster0-shard-00-01-ztwly.mongodb.net:27017,cluster0-shard-00-02-ztwly.mongodb.net:27017/admin?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin")
+client = pymongo.MongoClient("mongodb://giles53716:A@cluster0-shard-00-00-ztwly.mongodb.net:27017,cluster0-shard-00-01-ztwly.mongodb.net:27017,cluster0-shard-00-02-ztwly.mongodb.net:27017/admin?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin")
 
 
 @app.route("/")
